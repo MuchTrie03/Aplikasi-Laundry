@@ -15,5 +15,3 @@ Pass : admin123
 php artisan key:generate
 php artisan migrate:fresh --seed
 ```
-
-ke langsung aya tabel an database kosongan na
