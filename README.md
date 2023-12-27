@@ -6,12 +6,4 @@ Login admin:
 Email : admin@laundryxyz.com  
 Pass : admin123
 
-## Instalasi
-1. Bikin database kosongan dina phpmyadmin 
-1. Konfigurasi .env ganti DB_DATABASE jadi ngaran database nu bieu di jieun
-3. ketik dina terminal vscode:
 
-```
-php artisan key:generate
-php artisan migrate:fresh --seed
-```
