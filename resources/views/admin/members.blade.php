@@ -32,7 +32,6 @@
                                         <th>Jenis Kelamin</th>
                                         <th>Alamat</th>
                                         <th>No Telp</th>
-                                        <th>Poin</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -51,7 +50,6 @@
                                             </td>
                                             <td>{{ $member->address }}</td>
                                             <td>{{ $member->phone_number }}</td>
-                                            <td>{{ $member->point }}</td>
                                         </tr>
                                     @endforeach
                                 </tbody>

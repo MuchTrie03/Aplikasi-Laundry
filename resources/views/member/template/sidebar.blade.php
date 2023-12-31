@@ -32,13 +32,6 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="{{ route('member.complaints.index') }}"
-                    class="nav-link {{ request()->routeIs('member.complaints.index') ? 'active' : '' }}">
-                    <i class="nav-icon fas fa-sticky-note"></i>
-                    <p>Saran / Komplain</p>
-                </a>
-            </li>
-            <li class="nav-item">
                 <a href="#" class="nav-link" data-toggle="modal" data-target="#logoutModal">
                     <i class="nav-icon fas fa-sign-out-alt"></i>
                     <p>Logout</p>

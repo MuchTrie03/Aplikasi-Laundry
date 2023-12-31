@@ -13,8 +13,6 @@
         <!-- Notifications Dropdown Menu -->
         <li class="nav-item dropdown">
             <a class="nav-link" data-toggle="dropdown" href="#">
-                <img class="img-circle img-fit mr-1" width="25" height="25" src=""
-                    alt="Foto Profil">
                 {{ $user->name }}
             </a>
             <div class="dropdown-menu dropdown-menu-md dropdown-menu-right">

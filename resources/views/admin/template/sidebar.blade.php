@@ -39,34 +39,6 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="{{ route('admin.vouchers.index') }}"
-                    class="nav-link {{ request()->routeIs('admin.vouchers.index') ? 'active' : '' }}">
-                    <i class="nav-icon fas fa-star"></i>
-                    <p>Voucher</p>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="{{ route('admin.complaint-suggestions.index') }}"
-                    class="nav-link {{ request()->routeIs('admin.complaint-suggestions.index') ? 'active' : '' }}">
-                    <i class="nav-icon fas fa-sticky-note"></i>
-                    <p>Saran / Komplain</p>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="{{ route('admin.reports.index') }}"
-                    class="nav-link {{ request()->routeIs('admin.reports.index') ? 'active' : '' }}">
-                    <i class="nav-icon fas fa-file-alt"></i>
-                    <p>Laporan Keuangan</p>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="{{ route('profile.index') }}"
-                    class="nav-link {{ request()->routeIs('profile.index') ? 'active' : '' }}">
-                    <i class="nav-icon fas fa-user-edit"></i>
-                    <p>Edit Profil</p>
-                </a>
-            </li>
-            <li class="nav-item">
                 <a href="#" class="nav-link" data-toggle="modal" data-target="#logoutModal">
                     <i class="nav-icon fas fa-sign-out-alt"></i>
                     <p>Logout</p>

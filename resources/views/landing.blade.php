@@ -8,10 +8,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Laundry in</title>
+    <title>Malaundry</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet"> <!--public/vendor-->
 
     <!-- Custom styles for this template -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -30,7 +30,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="">Laundry in</a>
+            <a class="navbar-brand" href="">Malaundry</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,15 +38,9 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mr-sm-3 mb-2 mb-sm-0">
-                        <div class="dropdown">
-                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                @lang('landing.langtext')
-                            </button>
-                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-success" href="{{url('login')}}">@lang('landing.loginOrRegister')</a>
+                        <a class="btn btn-success" href="{{url('login')}}">Masuk / Register</a>
                     </li>
                 </ul>
             </div>
@@ -58,8 +52,8 @@
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="display-3 text-white mt-5 mb-2">@lang('landing.welcome')</h1>
-                    <p class="lead mb-5 text-white-50">@lang('landing.tagline')</p>
+                    <h1 class="display-3 text-white mt-5 mb-2">Selamat datang di Malaundry</h1>
+                    <p class="lead mb-5 text-white-50">Dapatkan pengalaman terbaik dalam layanan laundry</p>
                 </div>
                 <div class="col-lg-6">
                     <img class="img-fluid d-none d-lg-block" src="{{asset('img/landing/header.png')}}" alt="" srcset="">
@@ -69,7 +63,7 @@
     </header>
 
     <section class="p-5 text-center">
-        <h3>@lang('landing.why')</h3>
+        <h3>Kenapa memilih layanan laundry kami?</h3>
     </section>
 
     <!-- Page Content -->
@@ -102,8 +96,7 @@
                 </div>
             </div>
         </div>
-    </section>
-
+    </section>    
     <section class="kelebihan bg-blue text-white">
         <div class="container p-5">
             <div class="row">
@@ -172,18 +165,14 @@
             <div class="row">
                 <div class="col-md-6 mb-4 mb-sm-0">
                     <h5>Alamat</h5>
-                    <p>Jalan Raya Sempidi No. 69 Lukluk, Mengwi, Badung, Bali</p>
+                    <p>Jl. Padasuka No.131, Pasirlayung, Kec. Cibeunying Kidul, Kabupaten Bandung, Jawa Barat 40911</p>
                     <br>
                     <h5>Kontak</h5>
-                    <p>laundryxyz@gmail.com</p>
-                    <p>(0361)123456</p>
-                    <p>081234567890</p>
+                    <p>Malaundry@gmail.com</p>
+                    <p>087714635789</p>
                 </div>
                 <div class="col-md-6">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.0551329606237!2d115.18456241433559!3d-8.59069798958535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2394d265755b3%3A0xb025730a3074e799!2sJl.%20Raya%20Lukluk%20-%20Sempidi%2C%20Lukluk%2C%20Kec.%20Mengwi%2C%20Kabupaten%20Badung%2C%20Bali!5e0!3m2!1sid!2sid!4v1589257661013!5m2!1sid!2sid"
-                        width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9653660508957!2d107.6535392739972!3d-6.894746193104392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7d91e1eacc7%3A0x22f1d4f7adbe20fb!2sMalaundry!5e0!3m2!1sid!2sid!4v1702434518213!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -193,7 +182,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; {{config('app.name')}} 2020</p>
+            <p class="m-0 text-center text-white">Copyright &copy; Malaundry 2023</p>
         </div>
         <!-- /.container -->
     </footer>

@@ -55,35 +55,6 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <h3 class="mb-3">Transaksi Berjalan (Priority Service): </h3>
-                            <table class="table">
-                                <thead class="thead-light">
-                                    <tr>
-                                        <th>No</th>
-                                        <th>Tanggal</th>
-                                        <th>Status</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @foreach ($priorityTransactions as $transaction)
-                                        <tr>
-                                            <td>{{ $loop->iteration }}</td>
-                                            <td>{{ date('d F Y', strtotime($transaction->created_at)) }}</td>
-                                            <td>
-                                                @if ($transaction->status_id != '3')
-                                                    <span class="text-warning">{{ $transaction->status->name }}</span>
-                                                @else
-                                                    <span class="text-success">{{ $transaction->status->name }}</span>
-                                                @endif
-                                            </td>
-                                        </tr>
-                                    @endforeach
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
                             <h3 class="mb-3">Transaksi Berjalan: </h3>
                             <table class="table">
                                 <thead class="thead-light">
