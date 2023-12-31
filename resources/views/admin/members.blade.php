@@ -26,7 +26,6 @@
                             <table id="tbl-members" class="table dt-responsive nowrap" style="width: 100%">
                                 <thead class="thead-light">
                                     <tr>
-                                        <th>No</th>
                                         <th>ID Member</th>
                                         <th>Nama Member</th>
                                         <th>Jenis Kelamin</th>
@@ -37,7 +36,6 @@
                                 <tbody>
                                     @foreach ($members as $member)
                                         <tr>
-                                            <td>{{ $loop->iteration }}</td>
                                             <td>{{ $member->id }}</td>
                                             <td>{{ $member->name }}</td>
                                             <td>

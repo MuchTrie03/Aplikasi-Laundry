@@ -6,4 +6,7 @@ Login admin:
 Email : admin@laundryxyz.com  
 Pass : admin123
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 17369495f589a3916f09119912d6bd544f3f05c8
