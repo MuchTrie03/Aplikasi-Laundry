@@ -18,21 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-primary">
-
-    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="">Malaundry</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                </ul>
-            </div>
-        </div>
-    </nav>
+<body class="bg-light">
 
     @yield('container')
 
